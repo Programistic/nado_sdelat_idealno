@@ -29,7 +29,7 @@ html {
 
 .title:hover::before {
   position: absolute;
-  top: 180px;
+  top: 182px;
   right: 20px;
   content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
   white-space: pre;
