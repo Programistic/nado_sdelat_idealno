@@ -65,14 +65,17 @@ html {
 .title__last-word {
   display: block;
   position: relative;
-  left: -20px;
+}
+
+.title__last-word_shift-left {
+  left: -12px;
 }
 
 .title__last-word::before {
   position: absolute;
   content: '*';
   top: 0;
-  right: -30px;
+  right: -38px;
 }
 
 .video {
