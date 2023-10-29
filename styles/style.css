@@ -58,6 +58,10 @@ html {
   z-index: 2;
 }
 
+.title_uppercase {
+  text-transform: uppercase;
+}
+
 .title__last-word {
   display: block;
   position: relative;
