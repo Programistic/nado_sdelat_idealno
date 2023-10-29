@@ -68,14 +68,14 @@ html {
 }
 
 .title__last-word_shift-left {
-  left: -12px;
+  left: -20px;
 }
 
 .title__last-word::before {
   position: absolute;
   content: '*';
   top: 0;
-  right: -38px;
+  right: -20px;
 }
 
 .video {
