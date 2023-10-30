@@ -8,9 +8,9 @@ html {
   grid-template-columns: 1fr;
   grid-template-rows: min-content 1fr;
   min-width: 800px;
-  max-width: 1600px;
   height: 100%;
   margin: 0 auto;
+  background: url(../images/poster.jpg) no-repeat center / contain;
 }
 
 .title {
