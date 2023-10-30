@@ -72,11 +72,9 @@ html {
   left: -12px;
 }
 
-.title__last-word::before {
-  position: absolute;
+.title__last-word::after {
+  position: relative;
   content: '*';
-  top: 0;
-  right: -22px;
 }
 
 .video {
