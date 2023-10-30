@@ -27,7 +27,7 @@ html {
   grid-column: 1 / -1;
   grid-row: 1 / 2;
   justify-self: center;
-  max-width: 740px;
+  max-width: 720px;
   margin: 60px 0 0 0;
   padding: 0;
   font: 116px/1.17 'Raleway-ExtraBold', sans-serif;
