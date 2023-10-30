@@ -13,6 +13,16 @@ html {
   background: url(../images/poster.jpg) no-repeat center / contain;
 }
 
+.page::after {
+  position: absolute;
+  content: '';
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255 255 255 / .3);
+  z-index: 2;
+}
+
 .title {
   grid-column: 1 / -1;
   grid-row: 1 / 2;
@@ -26,6 +36,11 @@ html {
   text-align: center;
   text-transform: uppercase;
   z-index: 3;
+}
+
+.title:hover {
+  color: #4c4c4c;
+  cursor: pointer;
 }
 
 .title:hover::before {
@@ -45,35 +60,11 @@ html {
   border-radius: 20px;
   box-shadow: 0 14px #000;
   background-color: #fff;
+  cursor: default;
   z-index: 4;
 }
 
-.title:hover::after {
-  position: absolute;
-  content: '';
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(255 255 255 / .3);
-  cursor: pointer;
-  z-index: 2;
-}
-
-.title_uppercase {
-  text-transform: uppercase;
-}
-
-.title__last-word {
-  display: block;
-  position: relative;
-}
-
-.title__last-word_shift-left {
-  left: -12px;
-}
-
-.title__last-word::after {
-  position: relative;
+.title::after {
   content: '*';
 }
 
