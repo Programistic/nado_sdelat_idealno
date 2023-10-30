@@ -24,6 +24,7 @@ html {
   letter-spacing: 4px;
   color: #000;
   text-align: center;
+  text-transform: uppercase;
   z-index: 3;
 }
 
@@ -40,6 +41,7 @@ html {
   font: 35px/1 'Raleway-Regular', sans-serif;
   letter-spacing: 0;
   text-align: left;
+  text-transform: none;
   border: 2px solid #000;
   border-radius: 20px;
   box-shadow: 0 14px #000;
