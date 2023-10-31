@@ -10,7 +10,7 @@ html {
   min-width: 800px;
   height: 100%;
   margin: 0 auto;
-  background: url(../images/poster.jpg) no-repeat center / contain;
+  background-color: #ffc6fd;
 }
 
 .page::after {
